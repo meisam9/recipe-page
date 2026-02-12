@@ -149,3 +149,21 @@ hr{
    border-top: 2px solid var(--stone-150);
    
 }
+@media screen and (max-width:375px){
+    .prep-time ul {
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.ingredients ul {
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.instruction ol {
+    margin-left: 25px;
+}
+.nutrition td {
+    padding: 12px;
+}
+}
